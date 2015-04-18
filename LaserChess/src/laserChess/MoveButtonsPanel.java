@@ -19,7 +19,7 @@ public class MoveButtonsPanel extends JPanel implements ActionListener{
 
 	JLabel buttonArrrayLabel;
 	ImageIcon bArrayIcon = new ImageIcon(
-			"C:/Users/Marty/workspace/LaserChess/src/images/buttonGrid5x5a.png");
+			"./images/buttonGrid5x5a.png");
 	
 	JButton b1, b2, b3, b4, b5, b6, b7, b8;
 	public MoveButtonsPanel(){
@@ -39,7 +39,7 @@ public class MoveButtonsPanel extends JPanel implements ActionListener{
 	}
 	public void newButtons() {
 		ImageIcon buttonIcon = new ImageIcon(
-				"C:/Users/Marty/workspace/LaserChess/src/images/whiteButton.png");
+				"./images/whiteButton.png");
 		JLabel buttonLabel = new JLabel(buttonIcon);		
 		// Create each button with an action listener.
 				b1 = new JButton();

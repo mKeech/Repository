@@ -100,10 +100,10 @@ public class LaserChess implements ActionListener  {
 		try {
 			playerOne = ImageIO
 					.read(new File(
-							"C:/Users/Marty/workspace/LaserChess/src/images/smilingStar0.png"));
+							"./images/smilingStar0.png"));
 			playerTwo = ImageIO
 					.read(new File(
-							"C:/Users/Marty/workspace/LaserChess/src/images/star1.png"));
+							"./images/star1.png"));
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

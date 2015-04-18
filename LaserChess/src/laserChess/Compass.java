@@ -39,7 +39,7 @@ public class Compass extends JPanel {
 		this.setBackground(Color.RED);
 		this.setForeground(Color.WHITE);
 		ImageIcon compassIcon = new ImageIcon(
-				"C:/Users/Marty/workspace/LaserChess/src/images/Compass.png");
+				"./images/Compass.png");
 		JLabel compassLabel = new JLabel(compassIcon);
 		compassLabel.setLayout(null);
 		compassLabel.setLocation(0, 0);

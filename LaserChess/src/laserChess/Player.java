@@ -74,12 +74,14 @@ public class Player {
     private void getImages() {
 
     	try {
-			p10 = ImageIO.read(new File("C:/Users/Marty/workspace/LaserChess/src/images/smilingStar0.png"));
-			p11 = ImageIO.read(new File("C:/Users/Marty/workspace/LaserChess/src/images/smilingStar1.png"));			
-			p12 = ImageIO.read(new File("C:/Users/Marty/workspace/LaserChess/src/images/smilingStar2.png"));			
-			p13 = ImageIO.read(new File("C:/Users/Marty/workspace/LaserChess/src/images/smilingStar3.png"));			
-			p14 = ImageIO.read(new File("C:/Users/Marty/workspace/LaserChess/src/images/smilingStar4.png"));			
-			p15 = ImageIO.read(new File("C:/Users/Marty/workspace/LaserChess/src/images/smilingStar5.png"));
+    		   System.out.println("Working Directory = " +
+    		              System.getProperty("user.dir"));
+			p10 = ImageIO.read(new File("./images/smilingStar0.png"));
+			p11 = ImageIO.read(new File("./images/smilingStar1.png"));			
+			p12 = ImageIO.read(new File("./images/smilingStar2.png"));			
+			p13 = ImageIO.read(new File("./images/smilingStar3.png"));			
+			p14 = ImageIO.read(new File("./images/smilingStar4.png"));			
+			p15 = ImageIO.read(new File("./images/smilingStar5.png"));
 
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
